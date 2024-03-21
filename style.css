@@ -1,0 +1,104 @@
+h2{
+    font-size: 30px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    background-color: #007f5f;
+}
+
+#natural-image{
+    border-radius: 20px;
+    width: 400px;
+    height: 230px;
+}
+
+.page-center{
+    margin-left: 27%;
+    width: 45%;
+    height: 30%;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #bfd200;
+    border-radius: 20px;
+}
+
+.box-natural{
+    gap: 10px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.box-natural a, .box-suplementos a{
+    text-decoration: none;
+}
+
+.box-suplementos{
+    margin-top: 10px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#suplementos{
+    border-radius: 20px;
+    width: 400px;
+    height: 230px;
+}
+
+.center-outros{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.naturais{
+    display: flex;
+    margin-top: 30px;
+    padding: 10px;
+    width: 400px;
+    flex-direction: column;
+    text-align: left;
+    font-size: 20px;
+    background-color: #55a630;
+    border-radius: 20px;
+}
+
+.naturais p, .suplementos p{
+    color: white;
+}
+
+.suplementos{
+    margin-top: 30px;
+    padding: 10px;
+    width: 400px;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    background-color:#55a630;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+h1{
+    color: #ffff3f;
+}
+
+.h2-infos{
+    color:#ffff3f;
+}
